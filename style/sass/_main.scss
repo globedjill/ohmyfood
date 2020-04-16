@@ -1,0 +1,20 @@
+// This is your framework's main stylesheet. Use it to import all default modules.
+/*Utils*/
+@import "utils/_variable";
+@import "utils/_mixin";
+@import "utils/_fonction";
+@import "utils/_maps";
+@import "utils/_keyframes";
+
+
+/*Layout*/
+@import "layout/_titre";
+@import "layout/_menu";
+@import "layout/_menu1";
+@import "layout/_menu2";
+@import "layout/_menu3";
+@import "layout/_menu4";
+@import "layout/_footer_header";
+
+/*font*/
+@import "scss/fontawesome.scss";

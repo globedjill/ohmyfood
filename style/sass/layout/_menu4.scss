@@ -1,0 +1,19 @@
+﻿.mep_menu4 {
+    @include couleur_menu(menu4);
+    color: black;
+    & h3 {
+        @include couleur_bg_nuance(menu4);
+    }
+}
+
+.menu4 {
+    & header {
+        & .separateur_gauche {
+            width: 150px;
+        }
+
+        & .separateur_droit {
+            width: 150px;
+        }
+    }
+}

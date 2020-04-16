@@ -1,0 +1,31 @@
+﻿.mep_menu3 {
+    @include couleur_menu(menu3);
+    color:black;
+    & h3 {
+        @include couleur_bg_nuance(menu3);
+    }
+}
+
+.menu3 {
+    & header {
+        & .separateur_gauche {
+            margin-bottom: 10px;
+            width: 150px;
+            height: 10px;
+            border: solid;
+            border-width: 0 0 5px 1px;
+            border-color: transparent transparent $couleur_font_menu3 transparent;
+            border-radius: 150px/10px 0px 0px 140px;
+        }
+
+        & .separateur_droit {
+            margin-bottom: 10px;
+            width: 150px;
+            height: 10px;
+            border: solid;
+            border-width: 0 1px 5px 0px;
+            border-color: transparent transparent $couleur_font_menu3 transparent;
+            border-radius: 150px/0px 10px 140px 0px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+﻿@keyframes pointillee {
+    0%{
+    transform:translateY(0px);
+    }
+    75% {
+        transform: translateY(0px);
+    }
+    100%{
+    transform:translateY(-8px);
+    }
+}
+
+@keyframes wiggle{
+    25% {
+        transform: translateX(2%);
+    }
+    75% {
+        transform: translateX(-2%);
+    }
+}
+

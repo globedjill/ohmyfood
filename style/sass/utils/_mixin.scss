@@ -1,0 +1,22 @@
+﻿@mixin flex($direction,$justify-content)
+    {
+    display:flex;
+    flex-direction:$direction;
+    justify-content:$justify-content;
+    }
+
+@mixin couleur_bg_nuance($bg)
+    {
+    $menuRadiant: map-get($mep-menu,$bg);
+    background: map-get($menuRadiant,nuance);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+@mixin couleur_menu($etat) {
+    $menuCouleur: map-get($mep-menu,$etat);
+    background-color: map-get($menuCouleur,bg);
+    color: map-get($menuCouleur,txt);
+    font-family: map-get($menuCouleur,formEcriture);
+    font-size: map-get($menuCouleur,fontSize);
+}

@@ -1,0 +1,26 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "site de presentation et reservation en ligne",
+  "main": "index.js",
+  "scripts": 
+  {
+    "sass":"sass --watch ./style/sass/_main.scss:./style/style.css"
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "git+https://github.com/globedjill/ohmyfood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs":
+  {
+    "url": "https://github.com/globedjill/ohmyfood/issues"
+  },
+  "homepage": "https://github.com/globedjill/ohmyfood#readme",
+  "dependencies":
+  {
+    "sass": "^1.26.3"
+  }
+}

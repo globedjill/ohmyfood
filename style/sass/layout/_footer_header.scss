@@ -1,0 +1,41 @@
+﻿header {
+    @include flex(row,center);
+    align-items: center;
+    margin-top: 50px;
+    height: 50px;
+    padding-bottom: 40px;
+}
+.header_principal_h1 {
+    @include flex (row,center);
+    background-color: $couleur_bg_header_footer;
+    height: 150px;
+    align-items: center;
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+footer {
+    position: fixed;
+    background-color: $couleur_bg_header_footer;
+    height: 100px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    @include flex(row,space-arround);
+    flex-wrap: wrap;
+    color: $couleur_font_header_footer;
+
+    & p {
+        font-size: 3em;
+        font-weight: 500;
+        font-size: 2.2em;
+
+        & :hover {
+            animation: wiggle 200ms 3;
+        }
+    }
+
+    & a {
+        color: $couleur_font_header_footer;
+    }
+}
+

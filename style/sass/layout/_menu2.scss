@@ -1,0 +1,61 @@
+﻿.mep_menu2{
+    @include couleur_menu(menu2);
+    & h3{
+        @include couleur_bg_nuance(menu2);
+        }
+    }
+.menu2 {
+    & #bg2 {
+        color: rgb(175, 93, 155);
+    }
+
+    & #bg3 {
+        color: rgb(121, 48, 211 );
+    }
+
+    & header {
+        margin-right: 150px;
+
+        & .separateur_gauche {
+            width: 0px;
+            height: 0px;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-right: 150px solid;
+            position: relative;
+        }
+
+        & .separateur_gauche:after {
+            content: '';
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 30px solid;
+            width: 0px;
+            height: 0px;
+            top: -5px;
+            left: 150px;
+            position: absolute;
+        }
+
+        & .separateur_droit {
+            width: 0px;
+            height: 0px;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-right: 30px solid;
+            position: relative;
+        }
+
+        & .separateur_droit:after {
+            content: '';
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 150px solid;
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            top: -5px;
+            left: 30px;
+        }
+    }
+}

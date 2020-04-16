@@ -20,3 +20,8 @@
     font-family: map-get($menuCouleur,formEcriture);
     font-size: map-get($menuCouleur,fontSize);
 }
+
+@mixin surlignage($etat) {
+    $surligne: map-get($surlignage,$etat);
+    background: map-get($surligne,bg);
+}

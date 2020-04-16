@@ -19,8 +19,8 @@ section:last-child h2 {
 }
 
 .menu {
-    width: 536px;
-    height: 758px;
+    width: 540px;
+    height: 760px;
     box-shadow: -2px 5px 20px grey;
     margin: 45px;
     @include flex(column,center);
@@ -40,10 +40,7 @@ section:last-child h2 {
         }
     }
 
-    & #mep1 p {
-        font-size: $font_size_page_menu_h2;
-        padding-top: 0px;
-    }
+    
 }
 
 #ligne_1 ,#ligne_2

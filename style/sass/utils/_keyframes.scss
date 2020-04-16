@@ -12,10 +12,10 @@
 
 @keyframes wiggle{
     25% {
-        transform: translateX(2%);
+        transform: rotateZ(7deg);
     }
     75% {
-        transform: translateX(-2%);
+        transform: rotateZ(-7deg);
     }
 }
 

@@ -1,8 +1,13 @@
 ﻿.mep_menu3 {
     @include couleur_menu(menu3);
-    color:black;
+    color: black;
+
     & h3 {
         @include couleur_bg_nuance(menu3);
+    }
+
+    & h4:after {
+        @include surlignage(menu3);
     }
 }
 

@@ -1,9 +1,14 @@
-﻿.mep_menu2{
+﻿.mep_menu2 {
     @include couleur_menu(menu2);
-    & h3{
+
+    & h3 {
         @include couleur_bg_nuance(menu2);
-        }
     }
+
+    & h4:after {
+        @include surlignage(menu2);
+    }
+}
 .menu2 {
     & #bg2 {
         color: rgb(175, 93, 155);

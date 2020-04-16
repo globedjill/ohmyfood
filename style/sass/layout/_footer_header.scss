@@ -20,7 +20,7 @@ footer {
     width: 100%;
     bottom: 0px;
     left: 0px;
-    @include flex(row,space-arround);
+    @include flex(row,space-evenly);
     flex-wrap: wrap;
     color: $couleur_font_header_footer;
 

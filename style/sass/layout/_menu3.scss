@@ -6,9 +6,12 @@
     }
 }
 
-.menu3 {
-    & header {
-        & .separateur_gauche {
+.menu3
+    {
+    & header
+        {
+        & .separateur_gauche
+            {
             margin-bottom: 10px;
             width: 150px;
             height: 10px;
@@ -16,7 +19,7 @@
             border-width: 0 0 5px 1px;
             border-color: transparent transparent $couleur_font_menu3 transparent;
             border-radius: 150px/10px 0px 0px 140px;
-        }
+            }
 
         & .separateur_droit {
             margin-bottom: 10px;

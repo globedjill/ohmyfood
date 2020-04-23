@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /*Utils*/
+@font-face {
+  font-family: "Kaushan Script";
+  src: url("../fonts/kaushan/kaushanscript.otf");
+}
 @keyframes pointillee {
   0% {
     transform: translateY(0px);

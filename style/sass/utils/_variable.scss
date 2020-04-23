@@ -1,4 +1,7 @@
-﻿$fa-font-path:"./../../webfonts";
+﻿@font-face {
+    font-family: "Kaushan Script";
+    src: url("../fonts/kaushan/kaushanscript.otf");
+}
 
 $formEcritureMenu1:'Devonshire', cursive;
 $formEcritureMenu2:'Georgia';

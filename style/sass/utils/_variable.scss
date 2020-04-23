@@ -1,9 +1,9 @@
 ﻿@font-face {
-    font-family: 'Kaushan Script';
-    src: url("../fonts/kaushan/kaushanscript.otf");
+    font-family: 'Kaushan Script','Devonshire','Georgia','Savoye LET';
+    src: url("../fonts/kaushanScript.otf"), url("../fonts/SavoyeLET.ttc"), url("../fonts/DevonshireRegular.ttf"), url("../fonts/georgia/Georgia.ttf");
 }
 
-$formEcritureMenu1:'Devonshire', cursive;
+$formEcritureMenu1:'Devonshire';
 $formEcritureMenu2:'Georgia';
 $formEcritureMenu3: 'Savoye LET';
 $formEcritureMenu4: 'Kaushan Script';

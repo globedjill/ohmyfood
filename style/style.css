@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*Utils*/
 @font-face {
-  font-family: "Kaushan Script";
-  src: url("../fonts/kaushan/kaushanscript.otf");
+  font-family: "Kaushan Script", "Devonshire", "Georgia", "Savoye LET";
+  src: url("../fonts/kaushanScript.otf"), url("../fonts/SavoyeLET.ttc"), url("../fonts/DevonshireRegular.ttf"), url("../fonts/georgia/Georgia.ttf");
 }
 @keyframes pointillee {
   0% {
@@ -194,7 +194,7 @@ section:last-child h2 {
 #ligne_1 article:nth-of-type(1) {
   background-color: #ffded9;
   color: #410d16;
-  font-family: "Devonshire", cursive;
+  font-family: "Devonshire";
   font-size: 1.5em;
 }
 #ligne_1 article:nth-of-type(2) {
@@ -235,7 +235,7 @@ section:last-child h2 {
 .mep_menu1 {
   background-color: #ffded9;
   color: #410d16;
-  font-family: "Devonshire", cursive;
+  font-family: "Devonshire";
   font-size: 1.5em;
 }
 .mep_menu1 h3 {

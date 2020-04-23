@@ -1,14 +1,14 @@
 @charset "UTF-8";
 /*Utils*/
 @font-face {
-    font-family: "Kaushan Script";
-    src: url("../fonts/KaushanScript-Regular.otf");
-    font-family: "Devonshire";
-    src:  url("../fonts/DevonshireRegular.ttf");
-    font-family: "Georgia";
-    src:  url("../fonts/georgia/Georgia.ttf");
-    font-family: "Savoye LET";
-    src: url("../fonts/SavoyeLET.ttc");
+  font-family: "Kaushan Script";
+  src: url("../fonts/KaushanScript-Regular.otf");
+  font-family: "Devonshire";
+  src: url("../fonts/DevonshireRegular.ttf");
+  font-family: "Georgia";
+  src: url("../fonts/georgia/Georgia.ttf");
+  font-family: "Savoye LET";
+  src: url("../fonts/SavoyeLET.ttc");
 }
 @keyframes pointillee {
   0% {

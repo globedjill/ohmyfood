@@ -210,7 +210,6 @@ section:last-child h2 {
   color: #007cff;
   font-family: "Savoye LET";
   font-size: 2em;
-  padding-top: 30px;
 }
 #ligne_2 article:nth-of-type(1) h2 {
   background: -webkit-linear-gradient(left, #2900e8, #007cff);

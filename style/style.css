@@ -2,7 +2,7 @@
 /*Utils*/
 @font-face {
   font-family: "Kaushan Script", "Devonshire", "Georgia", "Savoye LET";
-  src: url("../fonts/kaushanScript.otf"), url("../fonts/SavoyeLET.ttc"), url("../fonts/DevonshireRegular.ttf"), url("../fonts/georgia/Georgia.ttf");
+  src: url("../fonts/KaushanScript-Regular.otf"), url("../fonts/SavoyeLET.ttc"), url("../fonts/DevonshireRegular.ttf"), url("../fonts/georgia/Georgia.ttf");
 }
 @keyframes pointillee {
   0% {

@@ -54,7 +54,7 @@ section h2 {
 
 h3 {
   font-size: 2.4em;
-  padding-top: 30px;
+  padding: 30px 50px 0 50px;
 }
 
 h4 {
@@ -151,7 +151,7 @@ section a:hover {
 body {
   height: 100%;
   width: 100%;
-  /*font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+  font-family: Georgia, "Times New Roman", Times, serif;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -216,6 +216,10 @@ section:last-child h2 {
   background: -webkit-linear-gradient(left, #d17200, #9b21ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-color: #fff4fe;
+  color: #d17200;
+  font-family: "Georgia";
+  font-size: 1.1em;
 }
 
 #ligne_2 article:nth-of-type(1) {

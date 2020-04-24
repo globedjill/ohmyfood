@@ -1,11 +1,12 @@
-﻿@font-face {
-    font-family: "Kaushan Script";
+﻿@font-face
+    {
+    font-family: 'Kaushan Script';
     src: url("../fonts/KaushanScript-Regular.otf");
-    font-family: "Devonshire";
+    font-family: 'Devonshire';
     src: url("../fonts/DevonshireRegular.ttf");
-    font-family: "Georgia";
+    font-family: 'Georgia';
     src: url("../fonts/georgia/Georgia.ttf");
-    font-family: "Savoye LET";
+    font-family: 'Savoye LET';
     src: url("../fonts/SavoyeLET.ttc");
     }
 
@@ -46,8 +47,6 @@
     $couleur_nuance_menu2: -webkit-linear-gradient(left,rgb(209,114,0),rgb(155,33,255 ));
     $couleur_nuance_menu3: -webkit-linear-gradient(left,rgb(41,0,232 ),rgb(0,124,255 ));
     $couleur_nuance_menu4: -webkit-linear-gradient(left,rgb(82,199,73),rgb(169,255,109));
-
-
 
     $couleur_note: -webkit-linear-gradient(left,rgba(255, 74, 85, 1),rgba(255, 140,91,1));
 

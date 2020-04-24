@@ -148,7 +148,7 @@ section a:hover {
 body {
   height: 100%;
   width: 100%;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /*font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

@@ -2,7 +2,7 @@
     {
     height: 100%;
     width: 100%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
     @include flex(column,flex-start);
     font-size: $font_size_page_principal;
     margin-bottom: 100px;

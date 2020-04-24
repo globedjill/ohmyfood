@@ -3,10 +3,16 @@
 @font-face {
   font-family: "Kaushan Script";
   src: url("../fonts/KaushanScript-Regular.otf");
+}
+@font-face {
   font-family: "Devonshire";
   src: url("../fonts/DevonshireRegular.ttf");
+}
+@font-face {
   font-family: "Georgia";
   src: url("../fonts/georgia/Georgia.ttf");
+}
+@font-face {
   font-family: "Savoye LET";
   src: url("../fonts/SavoyeLET.ttc");
 }
@@ -216,10 +222,6 @@ section:last-child h2 {
   background: -webkit-linear-gradient(left, #d17200, #9b21ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-color: #fff4fe;
-  color: #d17200;
-  font-family: "Georgia";
-  font-size: 1.1em;
 }
 
 #ligne_2 article:nth-of-type(1) {

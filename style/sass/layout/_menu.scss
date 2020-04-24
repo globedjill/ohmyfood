@@ -58,7 +58,6 @@ section:last-child h2 {
 
         & h2 {
             @include couleur_bg_nuance(menu2);
-            @include couleur_menu(menu2);
         }
     }
 }

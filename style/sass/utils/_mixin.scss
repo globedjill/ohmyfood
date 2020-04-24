@@ -5,13 +5,12 @@
     justify-content:$justify-content;
     }
 
-@mixin couleur_bg_nuance($bg)
-    {
+@mixin couleur_bg_nuance($bg) {
     $menuRadiant: map-get($mep-menu,$bg);
     background: map-get($menuRadiant,nuance);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    }
+}
 
 @mixin couleur_menu($etat) {
     $menuCouleur: map-get($mep-menu,$etat);

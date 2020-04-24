@@ -9,6 +9,9 @@ h2 {
     @include flex(row,center);
     font-size: $font_size_page_menu_h2;
     margin: auto;
+    display:inline-block;
+    padding:0 10px;
+    background-color:transparent;
 }
     section h2{
         cursor:pointer;

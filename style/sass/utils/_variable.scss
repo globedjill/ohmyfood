@@ -3,23 +3,27 @@
     font-family: 'Kaushan Script';
     src: url("../fonts/KaushanScript-Regular.otf");
     }
-@font-face{
-    font-family: 'Devonshire';
-    src: url("../fonts/DevonshireRegular.ttf");
-    }
-@font-face{
-    font-family: 'Georgia';
-    src: url("../fonts/georgia/Georgia.ttf");
-    }
+@font-face {
+    font-family: 'kalam';
+    src: url("../fonts/Kalam/Kalam-Light.ttf"),normal, url("../fonts/Kalam/Kalam-Regular.ttf"),regular, url("../fonts/Kalam/Kalam-Bold.ttf"),bold;
+}
+@font-face {
+    font-family: 'noto';
+    src: url("../fonts/Noto_serif/NotoSerif-Regular.ttf"),url("../fonts/Noto_serif/NotoSerif-Bold.ttf");
+}
 @font-face{
     font-family: 'Savoye LET';
     src: url("../fonts/SavoyeLET.ttc");
     }
+@font-face {
+    font-family: 'dancing';
+    src: url("../fonts/Dancing.ttf");
+}
 
-    $formEcritureMenu1: 'Devonshire';
-    $formEcritureMenu2: 'Georgia';
+    $formEcritureMenu1: 'dancing';
+    $formEcritureMenu2: 'noto';
     $formEcritureMenu3: 'Savoye LET';
-    $formEcritureMenu4: 'Kaushan Script';
+    $formEcritureMenu4: 'kalam';
 
     $couleur_bg_header_footer: rgba(61, 160, 135, 1);
 
@@ -30,13 +34,13 @@
     $couleur_menu3: rgb(249,249,249 );
     $couleur_menu4: rgb(253,255,253 );
 
-    $font_size_page_principal: 1em;
-    $font_size_page_secondaire: 1em;
+    $font_size_page_principal: 1.4em;
     $font_size_page_menu_h2: 1.8em;
-    $font_size_page_menu_H3: 2.4em;
-    $font_size_page_menu_H4: 1.2em;
-    $font_size_prix: 1.1em;
-    $font_size_p: 1em;
+    $font_size_page_menu_H3:3em;
+    $font_size_page_menu_H4: 1.5em;
+    $font_size_p: 1.1em;
+    $font_size_p_footer: 1.1em;
+
 
     $taillePoliceMenu1: 1.5em;
     $taillePoliceMenu2: 1.1em;

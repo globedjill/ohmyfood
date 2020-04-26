@@ -1,12 +1,9 @@
-﻿body
-    {
-    height: 100%;
-    width: 100%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+﻿body {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
     @include flex(column,flex-start);
     font-size: $font_size_page_principal;
-    margin-bottom: 100px;
-    }
+    margin: 0 0 100px 0;
+}
 
 /*bouton prochainement*/
 section:last-child h2 {

@@ -25,9 +25,8 @@ footer {
     color: $couleur_font_header_footer;
 
     & p {
-        font-size: 3em;
         font-weight: 500;
-        font-size: 2.2em;
+        font-size: $font_size_p_footer;
 
         & :hover {
             animation: wiggle 200ms 4;

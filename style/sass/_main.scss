@@ -7,13 +7,15 @@
 
 
 /*Layout*/
-@import "layout/_titre";
 @import "layout/_menu";
 @import "layout/_menu1";
 @import "layout/_menu2";
 @import "layout/_menu3";
 @import "layout/_menu4";
 @import "layout/_footer_header";
+@import "layout/_titre";
 
 /*font*/
 @import "scss/fontawesome.scss";
+
+@import "utils/_media";

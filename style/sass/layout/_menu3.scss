@@ -10,30 +10,29 @@
         @include surlignage(menu3);
         height: $font_size_page_menu_H4/1.5;
     }
-}
+    & .menu3 {
+        & header {
+            padding: 0;
 
-.menu3 {
-    & header {
-        padding: 0;
+            & .separateur_gauche {
+                margin-bottom: 10px;
+                width: 270px;
+                height: 15px;
+                border: solid;
+                border-width: 0 0 6px 1px;
+                border-color: transparent transparent $couleur_font_menu3 transparent;
+                border-radius: 150px/10px 0px 0px 140px;
+            }
 
-        & .separateur_gauche {
-            margin-bottom: 10px;
-            width: 270px;
-            height: 15px;
-            border: solid;
-            border-width: 0 0 6px 1px;
-            border-color: transparent transparent $couleur_font_menu3 transparent;
-            border-radius: 150px/10px 0px 0px 140px;
-        }
-
-        & .separateur_droit {
-            margin-bottom: 10px;
-            width: 270px;
-            height: 15px;
-            border: solid;
-            border-width: 0 1px 6px 0px;
-            border-color: transparent transparent $couleur_font_menu3 transparent;
-            border-radius: 150px/0px 10px 140px 0px;
+            & .separateur_droit {
+                margin-bottom: 10px;
+                width: 270px;
+                height: 15px;
+                border: solid;
+                border-width: 0 1px 6px 0px;
+                border-color: transparent transparent $couleur_font_menu3 transparent;
+                border-radius: 150px/0px 10px 140px 0px;
+            }
         }
     }
 }

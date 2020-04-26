@@ -8,66 +8,68 @@
     & h4:after {
         @include surlignage(menu2);
     }
-}
-.menu2 {
-    & #bg2 {
-        color: rgb(175, 93, 155);
-    }
 
-    & #bg3 {
-        color: rgb(121, 48, 211 );
-    }
-
-    & header {
-        padding: 0;
-
-        & h4 {
-            left: -100px;
-            margin-left:15px;
+    & .menu2 {
+        & #bg2 {
+            color: rgb(175, 93, 155);
         }
 
-        & .separateur_gauche {
-            margin: 0;
-            width: 0px;
-            height: 0px;
-            border-top: 6px solid transparent;
-            border-bottom: 6px solid transparent;
-            border-right: 220px solid;
-            position: relative;
+        & #bg3 {
+            color: rgb(121, 48, 211 );
         }
 
-        & .separateur_gauche:after {
-            content: '';
-            border-top: 6px solid transparent;
-            border-bottom: 6px solid transparent;
-            border-left: 35px solid;
-            width: 0px;
-            height: 0px;
-            top: -6px;
-            left: 220px;
-            position: absolute;
-        }
+        & header {
+            padding: 0;
 
-        & .separateur_droit {
-            width: 0px;
-            height: 0px;
-            left: -220px;
-            border-top: 6px solid transparent;
-            border-bottom: 6px solid transparent;
-            border-right: 35px solid;
-            position: relative;
-        }
+            & h4 {
+                left: -100px;
+                margin-left: 15px;                
+            }
 
-        & .separateur_droit:before {
-            content: '';
-            border-top: 6px solid transparent;
-            border-bottom: 6px solid transparent;
-            border-left: 220px solid;
-            position: absolute;
-            width: 0px;
-            height: 0px;
-            top: -6px;
-            left: 35px;
+            & .separateur_gauche {
+                margin: 0;
+                width: 0px;
+                height: 0px;
+                border-top: 6px solid transparent;
+                border-bottom: 6px solid transparent;
+                border-right: 220px solid;
+                position: relative;
+                left:0%;
+            }
+
+            & .separateur_gauche:after {
+                content: '';
+                border-top: 6px solid transparent;
+                border-bottom: 6px solid transparent;
+                border-left: 35px solid;
+                width: 0px;
+                height: 0px;
+                top: -6px;
+                left: 220px;
+                position: absolute;
+            }
+
+            & .separateur_droit {
+                width: 0px;
+                height: 0px;
+                left: -220px;
+                border-top: 6px solid transparent;
+                border-bottom: 6px solid transparent;
+                border-right: 35px solid;
+                position: relative;
+            }
+
+            & .separateur_droit:before {
+                content: '';
+                border-top: 6px solid transparent;
+                border-bottom: 6px solid transparent;
+                border-left: 220px solid;
+                position: absolute;
+                width: 0px;
+                height: 0px;
+                top: -6px;
+                left: 35px;
+            }
         }
     }
 }

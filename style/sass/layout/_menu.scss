@@ -3,17 +3,24 @@
     @include flex(column,flex-start);
     font-size: $font_size_page_principal;
     margin: 0 0 100px 0;
-}
 
-/*bouton prochainement*/
-section:last-child h2 {
-    color: $couleur_font_header_footer;
-    background-color: $couleur_bg_header_footer;
-    padding:10px 60px 10px 60px ;
-    border-radius:15px;
-    font-weight:300;
-    margin-top:50px;
+    @media(max-width:960px) {
+        zoom: 80%;
+    }
+
+    @media (max-width:812px) {
+        zoom: 60%;
+    }
 }
+    /*bouton prochainement*/
+    section:last-child h2 {
+        color: $couleur_font_header_footer;
+        background-color: $couleur_bg_header_footer;
+        padding: 10px 60px 10px 60px;
+        border-radius: 15px;
+        font-weight: 300;
+        margin-top: 50px;
+    }
 
 .menu {
     width: 540px;
@@ -21,57 +28,55 @@ section:last-child h2 {
     box-shadow: -2px 5px 20px grey;
     margin: 45px;
     @include flex(column,center);
+        .mep {
+            margin: auto;
+            align-items: center;
+            @include flex(column,flex-start);
 
-    .mep {
-        margin: auto;
-        align-items: center;
-        @include flex(column,flex-start);
+            & i {
+                padding-bottom: 20px;
+            }
 
-        & i {
-            padding-bottom: 20px;
-        }
-
-        & p {
-            padding-top:20px;
-            font-size: $font_size_page_menu_h2;
-        }
-    }
-
-    
-}
-
-#ligne_1 ,#ligne_2
-    {
-    @include flex(row,center);
-    flex-wrap:wrap;
-    }
-#ligne_1 {
-    & article:nth-of-type(1) {
-        @include couleur_menu(menu1);
-    }
-
-    & article:nth-of-type(2) {
-        @include couleur_menu(menu2);
-
-        & h2 {
-            @include couleur_bg_nuance(menu2);
-        }
-    }
-}
-#ligne_2 {
-    & article:nth-of-type(1) {
-        @include couleur_menu(menu3);
-
-        & h2 {
-            @include couleur_bg_nuance(menu3);
+            & p {
+                padding-top: 20px;
+                font-size: $font_size_page_menu_h2;
+            }
         }
     }
 
-    & article:nth-of-type(2) {
-        @include couleur_menu(menu4);
+    #ligne_1, #ligne_2 {
+        @include flex(row,center);
+        flex-wrap: wrap;
+    }
 
-        & h2 {
-            @include couleur_bg_nuance(menu4);
+    #ligne_1 {
+        & article:nth-of-type(1) {
+            @include couleur_menu(menu1);
+        }
+
+        & article:nth-of-type(2) {
+            @include couleur_menu(menu2);
+
+            & h2 {
+                @include couleur_bg_nuance(menu2);
+            }
         }
     }
-}
+
+    #ligne_2 {
+        & article:nth-of-type(1) {
+            @include couleur_menu(menu3);
+
+            & h2 {
+                @include couleur_bg_nuance(menu3);
+            }
+        }
+
+        & article:nth-of-type(2) {
+            @include couleur_menu(menu4);
+
+            & h2 {
+                @include couleur_bg_nuance(menu4);
+            }
+        }
+    }

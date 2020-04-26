@@ -112,14 +112,21 @@ $anim-delay: $anim-dur / 6;
     width: 100%;
     @include flex (column, unset);
     align-items: center;
+
+    @media (max-width:612px) {
+        zoom: 60%;
+    }
+
     & section {
         @include flex (column, unset);
         align-items: center;
         box-sizing: border-box;
-        width: 85%;
+        width: 95%;
+
         & article {
             box-sizing: border-box;
-            width: 80%;
+            width: 100%;
+
             & header {
                 box-sizing: border-box;
                 width: 100%;

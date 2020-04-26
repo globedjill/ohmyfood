@@ -1,33 +1,24 @@
 ﻿.mep_menu1 {
     @include couleur_menu(menu1);
-
     & i {
+        background-color:blue;
         padding-top: 2em;
-        padding-bottom:0;
+        padding-bottom: 0;
     }
-
     & h3 {
         @include couleur_bg_nuance(menu1);
         padding: 0 50px;
     }
-
     & h4:after {
         @include surlignage(menu1);
-        bottom:-5px;
+        bottom: -5px;
     }
-}
-.menu1
-    {
-    & header
-        {
-        & .separateur_gauche
-            {
-            width: 50%;
+    & .menu1 {
+        & header {
+            & .separateur_gauche {
             }
-       & .separateur_droit
-            {
-            width: 50%;
+            & .separateur_droit {
             }
         }
     }
-    
+}

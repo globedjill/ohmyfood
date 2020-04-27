@@ -38,6 +38,20 @@
     transform: rotateZ(-7deg);
   }
 }
+.pointille {
+  animation: pointillee 900ms ease-in-out infinite alternate-reverse;
+  padding-left: 7px;
+}
+.pointille--1 {
+  animation-delay: 150ms;
+}
+.pointille--2 {
+  animation-delay: 300ms;
+}
+.pointille--3 {
+  animation-delay: 450ms;
+}
+
 /*Layout*/
 body {
   font-family: "Georgia", "Times New Roman", Times, serif;
@@ -393,6 +407,11 @@ h3 {
     font-size: 2.3076923077em;
   }
 }
+@media (max-width: 488px) {
+  h3 {
+    font-size: 2em;
+  }
+}
 
 h4 {
   position: relative;
@@ -478,20 +497,6 @@ section a:hover {
   transform: scale(1.2);
 }
 
-.pointille {
-  animation: pointillee 900ms ease-in-out infinite alternate-reverse;
-  padding-left: 7px;
-}
-.pointille--1 {
-  animation-delay: 150ms;
-}
-.pointille--2 {
-  animation-delay: 300ms;
-}
-.pointille--3 {
-  animation-delay: 450ms;
-}
-
 .mep_menu1, .mep_menu2, .mep_menu3, .mep_menu4 {
   box-sizing: border-box;
   width: 100%;
@@ -524,7 +529,7 @@ section a:hover {
 }
 @media (max-width: 488px) {
   .mep_menu1 section article p:nth-of-type(1), .mep_menu2 section article p:nth-of-type(1), .mep_menu3 section article p:nth-of-type(1), .mep_menu4 section article p:nth-of-type(1) {
-    margin-top: 20px;
+    margin-top: 30px;
   }
 }
 .mep_menu1 section article header, .mep_menu2 section article header, .mep_menu3 section article header, .mep_menu4 section article header {

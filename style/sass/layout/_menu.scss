@@ -1,6 +1,6 @@
 ﻿body {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
-    @include flex(column,flex-start);
+    @include flex(column,space-between);
     font-size: $font_size_page_principal;
     margin: 0 0 100px 0;
 
@@ -13,14 +13,26 @@
     }
 }
     /*bouton prochainement*/
-    section:last-child h2 {
-        color: $couleur_font_header_footer;
-        background-color: $couleur_bg_header_footer;
-        padding: 10px 60px 10px 60px;
-        border-radius: 15px;
-        font-weight: 300;
-        margin-top: 50px;
+section:last-child h2 {
+    color: $couleur_font_header_footer;
+    background-color: $couleur_bg_header_footer;
+    padding: 10px 60px 10px 60px;
+    border-radius: 15px;
+    font-weight: 300;
+    margin-top: 50px;
+
+    & .pointille {
+        display: inline-block;
+        animation: pointillee $anim-dur ease-in-out infinite alternate-reverse;
+        padding-left: 7px;
+
+        @for $i from 1 through 3 {
+            &--#{$i} {
+                animation-delay: $anim-delay * $i;
+            }
+        }
     }
+}
 
 .menu {
     width: 540px;

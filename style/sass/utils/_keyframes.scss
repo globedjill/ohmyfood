@@ -19,16 +19,4 @@
     }
 }
 
-$anim-dur: 900ms;
-$anim-delay: $anim-dur / 6;
 
-.pointille {
-    animation: pointillee $anim-dur ease-in-out infinite alternate-reverse;
-    padding-left: 7px;
-
-    @for $i from 1 through 3 {
-        &--#{$i} {
-            animation-delay: $anim-delay * $i;
-        }
-    }
-}

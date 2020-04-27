@@ -405,7 +405,7 @@ h4 {
 }
 @media (max-width: 488px) {
   h4 {
-    margin: 20px auto 15px auto;
+    margin: 10px auto auto auto;
   }
 }
 h4:after {
@@ -521,6 +521,11 @@ section a:hover {
 .mep_menu1 section article, .mep_menu2 section article, .mep_menu3 section article, .mep_menu4 section article {
   box-sizing: border-box;
   width: 100%;
+}
+@media (max-width: 488px) {
+  .mep_menu1 section article p:nth-of-type(1), .mep_menu2 section article p:nth-of-type(1), .mep_menu3 section article p:nth-of-type(1), .mep_menu4 section article p:nth-of-type(1) {
+    margin-top: 20px;
+  }
 }
 .mep_menu1 section article header, .mep_menu2 section article header, .mep_menu3 section article header, .mep_menu4 section article header {
   box-sizing: border-box;

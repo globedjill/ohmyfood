@@ -36,7 +36,7 @@ h4 {
     font-size: $font_size_page_menu_H4;
 
     @media (max-width:488px) {
-        margin:20px auto 15px auto;
+        margin:10px auto auto auto;
     }
 
     &:after {
@@ -141,6 +141,12 @@ $anim-delay: $anim-dur / 6;
             box-sizing: border-box;
             width: 100%;
 
+            & p:nth-of-type(1) {
+                @media (max-width:488px) {
+                    margin-top:20px;
+                }
+            }
+
             & header {
                 box-sizing: border-box;
                 width: 100%;
@@ -153,7 +159,7 @@ $anim-delay: $anim-dur / 6;
 
                 & .separateur_droit {
                     @media (max-width:488px) {
-                        display:none;
+                        display: none;
                     }
                 }
             }

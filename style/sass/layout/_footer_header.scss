@@ -27,12 +27,7 @@ footer {
 
     & p {
         font-weight: 500;
-        font-size: $font_size_p*1.7;
-
-        @media (max-width:388px) {
-            font-size: $font_size_p*1.3;
-        }
-        
+        font-size: $font_size_p*1.7;       
 
         & :hover {
             animation: wiggle 200ms 4;

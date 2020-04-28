@@ -28,11 +28,6 @@
                 text-align: center;
                 left: -100px;
                 margin-left: 15px;
-                @media (max-width:488px)
-                    {
-                    text-align: unset;
-                    left: 12%;
-                    }
                 }
             & .separateur_gauche
                 {

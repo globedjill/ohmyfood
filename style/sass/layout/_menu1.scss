@@ -13,12 +13,4 @@
         @include surlignage(menu1);
         bottom: -5px;
     }
-    & .menu1 {
-        & header {
-            & .separateur_gauche {
-            }
-            & .separateur_droit {
-            }
-        }
-    }
 }

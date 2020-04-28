@@ -20,7 +20,7 @@ section:last-child h2 {
     border-radius: 15px;
     font-weight: 300;
     margin-top: 50px;
-
+    font-size: $font_size_page_menu_h2*1.6;
     & .pointille {
         display: inline-block;
         animation: pointillee $anim-dur ease-in-out infinite alternate-reverse;
@@ -61,19 +61,23 @@ section:last-child h2 {
         flex-wrap: wrap;
     }
 
-    #ligne_1 {
-        & article:nth-of-type(1) {
-            @include couleur_menu(menu1);
+#ligne_1 {
+    & article:nth-of-type(1) {
+        @include couleur_menu(menu1);
+    }
+
+    & article:nth-of-type(2) {
+        @include couleur_menu(menu2);
+
+        & h2 {
+            font-size: $font_size_page_menu_h2;
+            @include couleur_bg_nuance(menu2);
         }
 
-        & article:nth-of-type(2) {
-            @include couleur_menu(menu2);
-
-            & h2 {
-                @include couleur_bg_nuance(menu2);
-            }
+        & p {
         }
     }
+}
 
     #ligne_2 {
         & article:nth-of-type(1) {

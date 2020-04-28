@@ -1,20 +1,23 @@
-﻿.mep_menu3 {
+﻿.mep_menu3
+    {
     @include couleur_menu(menu3);
     color: black;
-
-    & h3 {
+    & h2
+        {
         @include couleur_bg_nuance(menu3);
-    }
-
-    & h4:after {
+        }
+    & h3:after
+        {
         @include surlignage(menu3);
         height: $font_size_page_menu_H4/1.5;
-    }
-    & .menu3 {
-        & header {
+        }
+    & .menu3
+        {
+        & header
+            {
             padding: 0;
-
-            & .separateur_gauche {
+            & .separateur_gauche
+                {
                 margin-bottom: 10px;
                 width: 270px;
                 height: 15px;
@@ -22,9 +25,9 @@
                 border-width: 0 0 6px 1px;
                 border-color: transparent transparent $couleur_font_menu3 transparent;
                 border-radius: 150px/10px 0px 0px 140px;
-            }
-
-            & .separateur_droit {
+                }
+            & .separateur_droit
+                {
                 margin-bottom: 10px;
                 width: 270px;
                 height: 15px;
@@ -32,7 +35,7 @@
                 border-width: 0 1px 6px 0px;
                 border-color: transparent transparent $couleur_font_menu3 transparent;
                 border-radius: 150px/0px 10px 140px 0px;
+                }
             }
         }
     }
-}

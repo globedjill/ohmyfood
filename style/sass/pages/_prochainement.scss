@@ -1,0 +1,16 @@
+﻿.mep_prochainement
+    {
+    & section
+        {
+        @include flex(column, center);
+        & p
+            {
+            text-align: center;
+            font-size: 4em;
+            & span
+                {
+                font-size: .5em;
+                }
+            }
+        }
+    }

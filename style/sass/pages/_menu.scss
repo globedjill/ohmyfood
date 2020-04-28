@@ -1,0 +1,92 @@
+﻿.menu
+    {
+    width: 540px;
+    height: 760px;
+    box-shadow: -2px 5px 20px grey;
+    margin: 45px;
+    @include flex(column,center);
+    .mep
+        {
+        margin: auto;
+        align-items: center;
+        @include flex(column,flex-start);
+        & i
+            {
+            padding-bottom: 20px;
+            }
+        & p
+            {
+            padding-top: 20px;
+            font-size: $font_size_page_menu_h2;
+            }
+        }
+    }
+#ligne_1, #ligne_2
+    {
+    @include flex(row,center);
+    flex-wrap: wrap;
+    }
+#ligne_1
+    {
+    & article:nth-of-type(1)
+        {
+        @include couleur_menu(menu1);
+        }
+    & article:nth-of-type(2)
+        {
+        @include couleur_menu(menu2);
+        & h2
+            {
+            font-size: $font_size_page_menu_h2;
+            @include couleur_bg_nuance(menu2);
+            }
+        }
+    }
+#ligne_2
+    {
+    & article:nth-of-type(1)
+        {
+        @include couleur_menu(menu3);
+        & h2
+            {
+            @include couleur_bg_nuance(menu3);
+            }
+        }
+        & article:nth-of-type(2)
+            {
+            @include couleur_menu(menu4);
+            & h2
+                {
+                @include couleur_bg_nuance(menu4);
+                }
+            }
+     }
+
+/*bouton prochainement*/
+#btn_prochainement
+    {
+    box-shadow: 2px 2px 12px grey;
+    color: $couleur_font_header_footer;
+    background-color: $couleur_bg_header_footer;
+    padding: 10px 60px 10px 60px;
+    border-radius: 15px;
+    font-weight: 100;
+    margin-top: 50px;
+    font-size: $font_size_page_menu_h2*1.6;
+    & h2
+        {
+        & .pointille
+            {
+            display: inline-block;
+            animation: pointillee $anim-dur ease-in-out infinite alternate-reverse;
+            padding-left: 7px;
+            @for $i from 1 through 3
+                {
+                &--#{$i}
+                    {
+                    animation-delay: $anim-delay * $i;
+                    }
+                }
+            }
+        }
+    }

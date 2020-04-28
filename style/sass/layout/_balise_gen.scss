@@ -1,0 +1,52 @@
+﻿body {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    @include flex(column,space-between);
+    font-size: $font_size_page_principal;
+    margin: 0 0 100px 0;
+
+    @media(max-width:960px) {
+        zoom: 80%;
+    }
+
+    @media (max-width:812px) {
+        zoom: 60%;
+    }
+}
+main, nav {
+    @include flex (column, center);
+    align-items: center;
+    padding-bottom: 100px;
+}
+p {
+    @include flex(row,space-between);
+    margin: auto;
+    font-size: $font_size_p;
+    align-items: start;
+    padding: 10px;
+
+    & span {
+        font-size: $font_size_p;
+        font-weight: 700;
+        padding-left: 30px;
+    }
+}
+i {
+    font-size: 2em;
+    @include couleur_bg_nuance(note);
+    clip-path: inset(1px 1px);
+}
+a {
+    text-decoration: none;
+    color: unset;
+
+    &:visited {
+        color: unset;
+    }
+}
+section a {
+    transition: 600ms ease-in-out;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}

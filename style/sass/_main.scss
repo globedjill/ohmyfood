@@ -7,11 +7,14 @@
 @import "utils/_keyframes";
 
 /*Layout*/
-@import "layout/_menu";
-@import "layout/_menu1";
-@import "layout/_menu2";
-@import "layout/_menu3";
-@import "layout/_menu4";
 @import "layout/_footer_header";
 @import "layout/_titre";
+@import "layout/_balise_gen";
 
+/*Page*/
+@import "pages/_prochainement";
+@import "pages/_menu";
+@import "pages/_menu1";
+@import "pages/_menu2";
+@import "pages/_menu3";
+@import "pages/_menu4";

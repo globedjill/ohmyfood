@@ -12,5 +12,6 @@
   <ItemGroup>
     <None Include="style\sass\layout\balise_gen.scss" />
     <None Include="style\sass\pages\_prochainement.scss" />
+    <None Include="style\sass\pages\_mention_legales.scss" />
   </ItemGroup>
 </Project>

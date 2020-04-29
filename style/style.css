@@ -1,7 +1,7 @@
 /*Utils*/
 @font-face {
-  font-family: "kalam";
-  src: url("../fonts/Kalam/Kalam-Light.ttf"), url("../fonts/Kalam/Kalam-Regular.ttf"), url("../fonts/Kalam/Kalam-Bold.ttf");
+  font-family: "dancing";
+  src: url("../fonts/Dancing.ttf");
 }
 @font-face {
   font-family: "noto";
@@ -12,8 +12,8 @@
   src: url("../fonts/SavoyeLET.ttc");
 }
 @font-face {
-  font-family: "dancing";
-  src: url("../fonts/Dancing.ttf");
+  font-family: "kalam";
+  src: url("../fonts/Kalam/Kalam-Light.ttf"), url("../fonts/Kalam/Kalam-Regular.ttf"), url("../fonts/Kalam/Kalam-Bold.ttf");
 }
 @keyframes pointillee {
   0% {
@@ -41,40 +41,12 @@
   }
 }
 
-@media (max-width: 960px) {
-  body {
-    zoom: 80%;
-  }
-}
-@media (max-width: 812px) {
-  body {
-    zoom: 60%;
-  }
-}
-
-@media (max-width: 328px) {
-  h1 {
-    font-size: 3.75em;
-  }
-}
-
-@media (max-width: 1024px) {
-  h3 {
-    font-size: 2.3076923077em;
-  }
-}
-@media (max-width: 488px) {
-  h3 {
-    font-size: 2em;
-  }
-}
-
 @media (max-width: 730px) {
   .mep_menu1, .mep_menu2, .mep_menu3, .mep_menu4 {
     zoom: 80%;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   .mep_menu1 h2, .mep_menu2 h2, .mep_menu3 h2, .mep_menu4 h2 {
     font-size: 2.3076923077em;
   }
@@ -96,15 +68,9 @@
 }
 @media (max-width: 1024px) and (max-width: 1024px) {
   .mep_menu1 section article header, .mep_menu2 section article header, .mep_menu3 section article header, .mep_menu4 section article header {
-    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-}
-@media (max-width: 1024px) {
-  .mep_menu1 section article header h3, .mep_menu2 section article header h3, .mep_menu3 section article header h3, .mep_menu4 section article header h3 {
-    background-color: blue;
   }
 }
 @media (max-width: 1024px) and (max-width: 488px) {
@@ -112,15 +78,14 @@
     margin: 10px auto auto auto;
   }
 }
+@media (max-width: 1024px) and (max-width: 1200px) {
+  .mep_menu1 section article header .separateur_gauche, .mep_menu2 section article header .separateur_gauche, .mep_menu3 section article header .separateur_gauche, .mep_menu4 section article header .separateur_gauche {
+    zoom: 80%;
+  }
+}
 @media (max-width: 1024px) and (max-width: 488px) {
   .mep_menu1 section article header .separateur_droit, .mep_menu2 section article header .separateur_droit, .mep_menu3 section article header .separateur_droit, .mep_menu4 section article header .separateur_droit {
     display: none;
-  }
-}
-
-@media (max-width: 388px) {
-  footer p {
-    font-size: 1.43em;
   }
 }
 
@@ -416,9 +381,8 @@ section a:hover {
   background-color: #3da087;
   padding: 10px 60px 10px 60px;
   border-radius: 15px;
-  font-weight: 100;
   margin-top: 50px;
-  font-size: 2.08em;
+  font-size: 1.3em;
 }
 #btn_prochainement h2 .pointille {
   display: inline-block;
@@ -594,6 +558,47 @@ section a:hover {
 }
 .mep_menu4 .menu4 p {
   font-size: 0.8461538462em;
+}
+
+.mep_ml {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 50px;
+}
+.mep_ml h2 {
+  margin: 0;
+  color: #3da087;
+  font-size: 2.08em;
+  padding: 20px 0 30px 20px;
+}
+.mep_ml p {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 8px 0 0 40px;
+  display: inline;
+  text-align: justify;
+}
+.mep_ml p span {
+  padding: 0;
+}
+.mep_ml p a {
+  color: blue;
+  margin: 0;
+  padding: 0;
+  transition: unset;
+}
+.mep_ml p a:hover {
+  transform: unset;
+}
+.mep_ml h3 {
+  font-size: 1.2em;
+}
+.mep_ml ul {
+  padding-left: 80px;
 }
 
 /*# sourceMappingURL=style.css.map */

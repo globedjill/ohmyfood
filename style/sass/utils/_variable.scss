@@ -1,18 +1,19 @@
 ﻿@font-face {
-    font-family: 'kalam';
-    src: url("../fonts/Kalam/Kalam-Light.ttf"), url("../fonts/Kalam/Kalam-Regular.ttf"), url("../fonts/Kalam/Kalam-Bold.ttf");
+    font-family: 'dancing';
+    src: url("../fonts/Dancing.ttf");
 }
 @font-face {
     font-family: 'noto';
     src: url("../fonts/Noto_serif/NotoSerif-Regular.ttf"),url("../fonts/Noto_serif/NotoSerif-Bold.ttf");
 }
-@font-face{
+@font-face {
     font-family: 'Savoye LET';
     src: url("../fonts/SavoyeLET.ttc");
-    }
+}
+
 @font-face {
-    font-family: 'dancing';
-    src: url("../fonts/Dancing.ttf");
+    font-family: 'kalam';
+    src: url("../fonts/Kalam/Kalam-Light.ttf"), url("../fonts/Kalam/Kalam-Regular.ttf"), url("../fonts/Kalam/Kalam-Bold.ttf");
 }
 
     $formEcritureMenu1: 'dancing';

@@ -17,12 +17,12 @@ footer {
     position: fixed;
     background-color: $couleur_bg_header_footer;
     height: 100px;
-    width: 100%;
     bottom: 0px;
     left: 0px;
     @include flex(row,space-evenly);
     flex-wrap: wrap;
     color: $couleur_font_header_footer;
+    width: 100%;
 
     & p {
         font-weight: 500;

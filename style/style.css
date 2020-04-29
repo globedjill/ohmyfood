@@ -66,8 +66,8 @@
     width: 95%;
   }
   .mep_menu1 section article header, .mep_menu2 section article header, .mep_menu3 section article header, .mep_menu4 section article header {
-    justify-content: flex-start;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     height: 100px;
   }
@@ -86,11 +86,11 @@
   }
 
   .mep_menu2 header {
-    background-color: lightpink;
+    margin: auto;
   }
   .mep_menu2 header h3 {
-    left: 100px;
-    background-color: grey;
+    margin-right: auto;
+    text-align: unset;
   }
 }
 /*Layout*/
@@ -452,7 +452,7 @@ section a:hover {
 .mep_menu2 .menu2 header h3 {
   text-align: center;
   margin-left: 15px;
-  left: -100px;
+  margin-right: 150px;
 }
 .mep_menu2 .menu2 header .separateur_gauche {
   margin: 0;
@@ -462,7 +462,7 @@ section a:hover {
   border-bottom: 6px solid transparent;
   border-right: 220px solid;
   position: relative;
-  left: 0;
+  left: 0px;
 }
 .mep_menu2 .menu2 header .separateur_gauche:after {
   content: "";
@@ -637,8 +637,8 @@ section a:hover {
     width: 95%;
   }
   .mep_menu1 section article header, .mep_menu2 section article header, .mep_menu3 section article header, .mep_menu4 section article header {
-    justify-content: flex-start;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     height: 100px;
   }
@@ -657,11 +657,11 @@ section a:hover {
   }
 
   .mep_menu2 header {
-    background-color: lightpink;
+    margin: auto;
   }
   .mep_menu2 header h3 {
-    left: 100px;
-    background-color: grey;
+    margin-right: auto;
+    text-align: unset;
   }
 }
 

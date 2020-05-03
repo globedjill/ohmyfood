@@ -1,8 +1,16 @@
 ﻿$mep-menu: (
-    menu1 :( bg: $couleur_menu1, txt: $couleur_font_menu1, nuance : $couleur_nuance_menu1, formEcriture : $formEcritureMenu1,fontSize:$taillePoliceMenu1),
-    menu2 :( bg: $couleur_menu2, txt: $couleur_font_menu2, nuance : $couleur_nuance_menu2, formEcriture : $formEcritureMenu2,fontSize:$taillePoliceMenu2),
-    menu3 :( bg: $couleur_menu3, txt: $couleur_font_menu3, nuance : $couleur_nuance_menu3, formEcriture : $formEcritureMenu3,fontSize:$taillePoliceMenu3),
-    menu4 :( bg: $couleur_menu4, txt: $couleur_font_menu4, nuance : $couleur_nuance_menu4, formEcriture : $formEcritureMenu4,fontSize:$taillePoliceMenu4),
+    menu1 :( bg: $couleur_menu1, txt: $couleur_font_menu1,
+            nuance : $couleur_nuance_menu1, formEcriture : $formEcritureMenu1,
+            fontSize:$taillePoliceMenu1),
+    menu2 :( bg: $couleur_menu2, txt: $couleur_font_menu2,
+            nuance : $couleur_nuance_menu2, formEcriture : $formEcritureMenu2,
+            fontSize:$taillePoliceMenu2),
+    menu3 :( bg: $couleur_menu3, txt: $couleur_font_menu3,
+            nuance : $couleur_nuance_menu3, formEcriture : $formEcritureMenu3,
+            fontSize:$taillePoliceMenu3),
+    menu4 :( bg: $couleur_menu4, txt: $couleur_font_menu4,
+            nuance : $couleur_nuance_menu4, formEcriture : $formEcritureMenu4,
+            fontSize:$taillePoliceMenu4),
     note: ( nuance : $couleur-note)
 );
 

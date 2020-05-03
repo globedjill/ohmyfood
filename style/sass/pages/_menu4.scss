@@ -1,37 +1,35 @@
-﻿.mep_menu4
-    {
+﻿.mep_menu4 {
     @include couleur_menu(menu4);
     color: black;
-    & h2
-        {
+
+    & h2 {
         @include couleur_bg_nuance(menu4);
-        }
-    & h3:after
-        {
+    }
+
+    & h3:after {
         @include surlignage(menu4);
+    }
+
+
+    & .menu4 {
+        & header {
+            & .separateur_gauche {
+                width: 27%;
+                height: .7em;
+            }
+
+            & .separateur_droit {
+                width: 27%;
+                height: .7em;
+            }
         }
-    & .menu4
-        {
-        & header
-            {
-            & .separateur_gauche
-                {
-                width: 27%;
-                height: .7em;
-                }
-            & .separateur_droit
-                {
-                width: 27%;
-                height: .7em;
-                }
-            }
-        & h3
-            {
+
+        & h3 {
             font-size: $font_size_page_menu_H4/1.1;
-            }
-        & p
-            {
+        }
+
+        & p {
             font-size: $font_size_p/1.3;
-            }
         }
     }
+}

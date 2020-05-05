@@ -10,8 +10,8 @@
     $font_size_page_principal: 1em;
     $font_size_page_menu_h1: 4.5em;
     $font_size_page_menu_h2: 1.3em;
-    $font_size_page_menu_H3:3em;
-    $font_size_page_menu_H4: 1.5em;
+    $font_size_page_menu_h3:3em;
+    $font_size_page_menu_h4: 1.5em;
     $font_size_p: 1.1em;
     $taillePoliceMenu1: 2em;
     $taillePoliceMenu2: 2em;
@@ -43,5 +43,8 @@
     $couleur_surlignage_menu4: -webkit-linear-gradient(left,rgba(82,199,73,.3),rgba(169,255,109,.5));
 
     $anim-dur: 900ms;
-    $anim-delay: $anim-dur / 6;
+    $anim-dur2: 2000ms;
+
+
+    $anim-delay: $anim-dur / 4;
     $direction: row;

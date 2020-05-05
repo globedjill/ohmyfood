@@ -4,7 +4,7 @@
     font-size: $font_size_page_principal;
     margin: 0 0 100px 0;
 }
-main, nav {
+main{
     @include flex (column, center);
     align-items: center;
     padding-bottom:100px;
@@ -40,5 +40,6 @@ section a {
 
     &:hover {
         transform: scale(1.2);
+        opacity:.8;
     }
 }

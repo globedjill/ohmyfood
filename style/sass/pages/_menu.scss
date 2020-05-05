@@ -63,8 +63,7 @@
      }
 
 /*bouton prochainement*/
-#btn_prochainement
-    {
+#btn_prochainement {
     box-shadow: 2px 2px 12px grey;
     color: $couleur_font_header_footer;
     background-color: $couleur_bg_header_footer;
@@ -72,20 +71,31 @@
     border-radius: 15px;
     margin-top: 50px;
     font-size: $font_size_page_menu_h2;
-    & h2
-        {
-        & .pointille
-            {
+
+    & h2 {
+        & .pointille {
             display: inline-block;
             animation: pointillee $anim-dur ease-in-out infinite alternate-reverse;
             padding-left: 7px;
-            @for $i from 1 through 3
-                {
-                &--#{$i}
-                    {
+
+            @for $i from 1 through 3 {
+                &--#{$i} {
                     animation-delay: $anim-delay * $i;
-                    }
                 }
             }
         }
     }
+
+    & .pointille2 {
+        display: inline-block;
+        animation: pointillee2 $anim-dur2 ease-in-out infinite alternate-reverse;
+        padding-left: 7px;
+
+        @for $i from 1 through 3 {
+            &--#{$i} {
+                animation-delay: $anim-delay * $i;
+            }
+        }
+    }
+}
+    

@@ -15,16 +15,11 @@
     }
 }
 @media (max-width:600px){
-    body
-    {
-        zoom:50%;
-    }
     .mep_menu1, .mep_menu2, .mep_menu3, .mep_menu4 {
         & .entete h2 {
             font-size: $font_size_page_menu_h2*1.8;
         }
-
-        & section {
+        & .menu1,.menu2,.menu3,.menu4 {
             @include flex (column, unset);
             align-items: center;
             box-sizing: border-box;
@@ -36,19 +31,15 @@
                     justify-content: flex-start;
                     align-items: center;
                     height: 110px;
-
                     & .separateur_droit {
                         display: none;
                     }
-
                     & .separateur_gauche {
                         margin: auto;
                     }
-
                     & h3 {
                         margin: 10px 0;
                     }
-
                     & img {
                         display: inline-block;
                         width: 80%;
